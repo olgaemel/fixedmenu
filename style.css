@@ -98,6 +98,7 @@ body {
 
 .hero h1 {
   font-size: 130px;
+  display: flex;
   letter-spacing: 0.5px;
   margin: -10px 0 20px;
 }
@@ -121,4 +122,15 @@ h3 {
 
 .heading {
   background-color: rgb(156, 199, 154);
+}
+
+@media only screen and (max-width: 700px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+  .content h2,
+  h3 {
+    font-size: 40px;
+    margin: 10px 0;
+  }
 }
