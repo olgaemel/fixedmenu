@@ -133,4 +133,9 @@ h3 {
     font-size: 40px;
     margin: 10px 0;
   }
+
+  .nav a {
+    padding: 3px 5px;
+    font-size: 15px;
+  }
 }
